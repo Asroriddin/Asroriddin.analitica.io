@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("./img/background-top.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.list__manu-nav {
+    display: flex;
+}
+
+.manu__list-link {
+    text-decoration: none;
+    color: #8794BA;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.manu__list {
+    margin: 0 25px;
+    list-style: none;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #8794BA;
+    margin: 0 25px;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navbar {
+    padding-right: 100px;
+}
+
+.navlink {
+    border: 1px solid #465B95;
+    padding: 14px 50px;
+    border-radius: 25px;
+}
+
+.content__img {
+    padding-left: 58%;
+    padding-top: 100px;
+}
+.bom h1{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+   font-weight: bold;
+   margin-left: 125px;
+   font-size: 30px;
+   line-height: 100%;
+}
+.bom p{
+    color: white;
+    margin-left: 125px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.img{
+    margin-left: 1250px;
+    margin-top: -270px;
+}
+.img2{
+    margin-left: 1150px;
+    margin-top: -550px;
+}
+.bom button {
+    margin-left: 135px;
+    background:#EF2A82;
+    border: 1px solid ;
+    margin-top: 140px;
+    border-radius: 15px;
+    padding: 7px 25px;
+
+} 
+.bom button a {
+    text-decoration: none;
+    color: white;
+}
+.content img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+}
+.container{
+    background:url(./IMG/background-bottom.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+.bu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.pteg{
+    font-family: Roboto;
+    margin-left: 500px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.red{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+
+}
+.content-container{
+    max-width: px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #0F1F4B;
+    opacity: 0.7;  
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+    width: 340px;
+    height: 440px;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.box h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #8794BA;
+    margin-top: 20px;
+}
+.box p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    text-align: center;
+    /* text / secondary */
+    color: #8794BA;
+}
+.boxp{
+    border-bottom:2px solid #2A407C ;
+    width: 200px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+.order{
+    border: 1px solid #2A407C;
+    border-radius: 68px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+
+.box1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    text-align: center;
+    /* text / secondary */
+    color: #8794BA;
+    }
+    .box:hover{
+    background: white;
+    transition: 1s;
+    }
+    .order:hover{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        /* font-size: 18px; */
+        background: red;
+        color: white;
+        border: 1px solid violet;
+        transition: 0.7s;
+        background: violet;
+    }
+    .boxa{
+        border: 1px solid #fd0404;
+        border-radius: 68px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: red;
+    }
